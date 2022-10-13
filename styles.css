@@ -24,19 +24,35 @@ html {
 
 body {
     font-family: 'Open Sans', sans-serif;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 100px;
+    background: url(./images/weather.png) no-repeat;
+    background-size: cover;
+    color: white;
 }
 
-p {
-    font-size: 1.6rem;
-    line-height: 1.5;
+h1 {
+    font-size: 5rem;
+    line-height: 1.6;
 }
 
 img {
     width: 100%;
 }
 
-.container {
-    max-width: 900px;
-    margin: 0 auto;
-    padding: 0 20px;
+#countdown {
+    background: rgba(0,0,0,.4);
+    padding: 10px;
+    font-size: 45px;
+    border-radius: 5px;
+    width: 80%;
+    text-align: center;
+}
+
+.display {
+    font-size: 2rem;
+    padding: 1rem;
 }
