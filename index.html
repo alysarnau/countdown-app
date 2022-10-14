@@ -4,17 +4,28 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="image" property="og:image" content="https://i.imgur.com/QR5lEE1.png">
-    <title>New Years Countdown</title>
+    <meta name="image" property="og:image" content="https://i.imgur.com/GZxBcey.png">
+    <title>Timer</title>
     <script src="https://kit.fontawesome.com/1935d064dd.js" crossorigin="anonymous" ></script>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-        <h1>New Years Count Down</h1>
-        <div class="display">There are...</div>
-        <div id="countdown">LOADING...
+    <div class="container">
+        <h1>Timer</h1>
+        <div id="set-timer">
+            <h2>Set your time in minutes here:</h2>
+            <input type="number" id="timer" value="10">
+            <button id="start-timer">
+                Start Timer
+            </button>
         </div>
-        <div class="display" id="count-to">Until</div>
+        <div class="countdown-display">
+            <div class="display">There are...</div>
+            <div id="countdown">LOADING...
+            </div>
+            <div class="display" id="count-to">Until</div>
+        </div>
+    </div>
 
     <script src="script.js"></script>
 </body>

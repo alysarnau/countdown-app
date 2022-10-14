@@ -43,13 +43,28 @@ img {
     width: 100%;
 }
 
+.container {
+    width: 800px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 10rem auto;
+    align-items: center;
+    background-color: rgba(0,0,0,.4);
+    padding: 2rem;
+}
+
+.countdown-display {
+    width: 90%;
+    text-align: center;
+    display: none;
+}
+
 #countdown {
     background: rgba(0,0,0,.4);
     padding: 10px;
     font-size: 45px;
     border-radius: 5px;
-    width: 80%;
-    text-align: center;
 }
 
 .display {
